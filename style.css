@@ -1,0 +1,133 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&family=Nunito+Sans:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #3b3f46;
+}
+
+/* card style here */
+.card {
+  height: 480px;
+  width: 320px;
+  background-color: rgba(249, 222, 132, 0.883);
+  border-radius: 20px;
+  margin: 85px auto;
+}
+
+/* top style here */
+img {
+  height: 240px;
+  padding-left: 28px;
+}
+
+/* bottom style here */
+.bottom {
+  border-radius: 45px 45px 20px 20px;
+  background-color: white;
+  height: 49%;
+  border: 1px solid white;
+}
+
+.head {
+  margin: 20px 0px 0px 15px;
+}
+.bottom h4 {
+  font-family: "comme", sans-serif;
+  display: inline;
+}
+
+/* heart style here */
+.heart {
+  padding: 6.7px;
+  height: 15px;
+  color: red;
+}
+
+/* circle style here */
+.circle {
+  height: 28px;
+  width: 28px;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+/* star style here */
+.star {
+  color: orange;
+  padding: 1px;
+  margin-left: 15px;
+  border: 0.5px solid rgb(233, 233, 233);
+  background-color: rgba(249, 222, 132, 0.2);
+}
+.whiteStar {
+  color: rgb(233, 233, 233);
+}
+.ratingCount {
+  font-family: "comme", sans-serif;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+/* paragraph style here */
+p {
+  font-family: "Nunito sans", sans-serif;
+  font-size: 13px;
+  padding: 20px 15px 10px 15px;
+}
+
+/* quantity style here */
+.quantity {
+  border: 1px solid #f9595f;
+  border-radius: 5px;
+  display: inline-block;
+  height: 36px;
+  background-color: rgba(254, 238, 239, 0.4);
+  margin-right: 10px;
+  padding-top: 4px;
+}
+/* minus symbol style here */
+
+.minus {
+  padding-left: 10px;
+  font-size: 25px;
+  color: #f9595f;
+}
+
+/* plus symbol style here */
+.plus {
+  padding-right: 10px;
+  font-size: 20px;
+  color: #f9595f;
+}
+
+/* number inside quantity style here */
+.number {
+  font-size: 18px;
+  color: black;
+  padding: 0px 10px;
+}
+
+/* button common style here */
+button {
+  font-family: "Comme", sans-serif;
+  font-size: 14px;
+  margin: 15px 5px 0px 0px;
+  border: none;
+  border-radius: 5px;
+}
+.button {
+  text-align: center;
+}
+.btn {
+  background-color: #f9595f;
+  color: white;
+  padding: 15px 50px 12px 50px;
+}
